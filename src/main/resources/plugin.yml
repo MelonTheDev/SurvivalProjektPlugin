@@ -1,0 +1,86 @@
+name: SurvivalprojektPlugin
+version: 1.0-SNAPSHOT
+main: wtf.melonthedev.survivalprojektplugin.Main
+api-version: 1.16
+authors: [ Melonthedev ]
+website: melonthedev.wtf
+
+commands:
+  date:
+    description: Shows the current date
+
+  enderchest:
+    description: Opens your enderchest
+    aliases:
+      - ec
+
+  craft:
+    description: Opens a craftingfield
+
+  home:
+    description: Let you set and teleport to a point
+
+  warp:
+    description: Teleports you to specific locations
+
+  shop:
+    description: A communityshop BETA
+
+  marry:
+    description: Just marry someone
+
+  trash:
+    description: A trash for all and in nearly ervery size
+
+  status:
+    description: Let you set a status
+    aliases:
+      - role
+
+  danke:
+    description: Just say Thankyou to a person
+
+  votekick:
+    description: Votes for a person to kick
+
+  location:
+    description: Let you locate a player
+
+  killban:
+    description: KILLBAN SETTINGS
+
+  combine:
+    description: Let you combine 2 items in your off and mainhand
+
+  npc:
+    description: BETA (Admin)
+
+  settings:
+    description: BETA (Admin)
+
+  test:
+    description: TESTING COMMAND (Admin)
+
+  afk:
+    description: If your noodles are boiling ;)
+
+  voteplot:
+    description: OUTDATED
+
+  pet:
+    description: Pet system
+
+  tpa:
+    description: Can you teleport to another player with 5 emeralds
+
+  arrowholder:
+    description: If you hav an infinity bow, this arrow will appear in your inventory
+
+  kitpvp:
+    description: pvp command idk
+
+  restoreinv:
+    description: Restores the inv of a player
+
+  lockchest:
+    description: Can lock chests and edit permissions
